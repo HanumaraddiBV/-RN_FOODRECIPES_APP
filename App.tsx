@@ -9,7 +9,7 @@ import React from 'react';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 // import {Button} from './src/Common/Button';
-import Welcome from './src/screens/Welcome';
+import Welcome from './src/screens/WelComeScreen/Welcome';
 
 function App(): JSX.Element {
   // const isDarkMode = useColorScheme() === 'dark';

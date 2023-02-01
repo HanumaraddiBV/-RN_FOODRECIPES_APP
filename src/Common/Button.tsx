@@ -15,7 +15,11 @@ export const Button = ({text, customStyle, colors, onPress}: any) => {
         </LinearGradient>
       ) : (
         <View
-          style={[styles.buttonContainer, styles.buttonTransparentContainer]}>
+          style={[
+            styles.buttonContainer,
+            styles.buttonTransparentContainer,
+            {borderColor: colors[0]},
+          ]}>
           <Text style={styles.buttonText}>{text}</Text>
         </View>
       )}
