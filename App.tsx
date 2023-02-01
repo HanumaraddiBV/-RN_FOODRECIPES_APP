@@ -8,8 +8,9 @@
 import React from 'react';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-// import {Button} from './src/Common/Button';
-import Welcome from './src/screens/WelComeScreen/Welcome';
+import Login from './src/screens/Login/Login';
+
+// import Welcome from './src/screens/WelComeScreen/Welcome';
 
 function App(): JSX.Element {
   // const isDarkMode = useColorScheme() === 'dark';
@@ -20,8 +21,8 @@ function App(): JSX.Element {
 
   return (
     <SafeAreaProvider style={{flex: 1}}>
-      <Welcome />
-      {/* <Button /> */}
+      {/* <Welcome /> */}
+      <Login />
     </SafeAreaProvider>
   );
 }

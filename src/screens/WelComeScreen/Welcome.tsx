@@ -11,7 +11,7 @@ const Welcome = () => {
 
       <View style={styles.header}>
         <ImageBackground
-          source={require('../assets/images/food-recipe.jpeg')}
+          source={require('../../assets/images/food-recipe.jpeg')}
           resizeMode={'cover'}
           style={styles.backgroundImage}>
           <LinearGradient
