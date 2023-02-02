@@ -4,12 +4,13 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  Image,
+  // Image,
   StyleSheet,
   KeyboardAvoidingView,
 } from 'react-native';
 
 import LottieView from 'lottie-react-native';
+// import {Button} from '../../Common/Button';
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -26,7 +27,7 @@ const Login = () => {
         autoPlay
         loop
       />
-      <Text style={styles.LoginText}>Login</Text>
+      {/* <Text style={styles.LoginText}>Login</Text> */}
       <View style={styles.formContainer}>
         <TextInput
           style={styles.input}
@@ -58,8 +59,8 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 400,
-    height: 300,
-    marginBottom: 10,
+    height: 350,
+    marginBottom: 5,
   },
   formContainer: {
     backgroundColor: 'white',
@@ -97,7 +98,7 @@ const styles = StyleSheet.create({
   LoginText: {
     fontSize: 37,
     fontWeight: 'bold',
-    alignSelf:"flex-start",
+    alignSelf: 'flex-start',
     padding: 20,
   },
 });

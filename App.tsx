@@ -8,7 +8,7 @@
 import React from 'react';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import Login from './src/screens/Login/Login';
+import SignUp from './src/screens/SignUp/SignUp';
 
 // import Welcome from './src/screens/WelComeScreen/Welcome';
 
@@ -22,7 +22,7 @@ function App(): JSX.Element {
   return (
     <SafeAreaProvider style={{flex: 1}}>
       {/* <Welcome /> */}
-      <Login />
+      <SignUp />
     </SafeAreaProvider>
   );
 }
