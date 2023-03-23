@@ -8,9 +8,10 @@
 import React from 'react';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import SignUp from './src/screens/SignUp/SignUp';
+// import SignUp from './src/screens/SignUp/SignUp';
 
 // import Welcome from './src/screens/WelComeScreen/Welcome';
+import Login from './src/screens/Login/Login';
 
 function App(): JSX.Element {
   // const isDarkMode = useColorScheme() === 'dark';
@@ -22,7 +23,8 @@ function App(): JSX.Element {
   return (
     <SafeAreaProvider style={{flex: 1}}>
       {/* <Welcome /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <Login />
     </SafeAreaProvider>
   );
 }
